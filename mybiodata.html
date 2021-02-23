@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio Data</title>
+</head>
+<body>
+  <h1>My Bio Data</h1><br>
+  <fieldset > <legend>Personal Information</legend>
+  <form>
+      <label for="FirstName">  FirstName:</label>
+      <input type="text" id="FirstName" name="FirstName" value="First Name">
+      <label for="LastName"> LastName:</label>
+      <input type="text" id="LastName" name="LastName" value="Last Name">
+</form><br>
+  <form>
+      <label for="gender1">  Male:</label>
+   <input type="radio"id="gender1" name="gender" >
+   <label for="gender2"> &nbsp Female:</label>
+   <input type="radio"id="gender2" name="gender" > 
+   <label for="gender3">  Other:</label>
+   <input type="radio"id="gender3" name="gender"  >
+</form> <br>
+<form>
+   <label for="dob" id="dob"> Date of Birth :</label>
+   <input type="date" id="dob" name="dob">
+</form><br>
+<form>
+   <label for="e-mail">  E-Mail:</label>
+   <input type="email" id="e-mail" name="e-mail" value="Enter Your Email">
+</form><br>
+<form>
+  <label for="phone">  Phone</label>
+  <input type="text" id="phone" name="phone" value="+91">
+</form><br>
+<form>
+  <label for="height">    Height</label>
+  <input type="text" id="height" name="height" value="Height in Feet">
+</form>
+</fieldset>
+<fieldset>
+<legend>Education</legend>
+<form>
+<label for="school"> School Name :</label>
+<input type="text" id="school" value="School Name">
+</form><br>
+<form>
+<label for="class"> Class :</label>
+<input type="text" id="class" value="Enter Class">
+</form><br>
+Stream :
+<select name="stream">
+    <label for="stream"> </label>
+<option value="first">first</option>
+<option value="Stream"selected>Stream &nbsp;</option>
+<option value="hird">third</option>
+</select>
+<br>
+<br>
+<form>
+Marksheet:
+<input type="file" value="Choose File ">
+</form>
+</fieldset><br>
+<form>
+    <input type="submit">
+</form>
+</body>
+</html>
